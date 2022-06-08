@@ -1,8 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-   name='effdensenet',
+   name='models',
    version="0.1.0",
-   packages=['effdensenet','effdensenet.*'],
-   package_dir={"effdensenet": "models"}
+   packages=find_packages()
 )
